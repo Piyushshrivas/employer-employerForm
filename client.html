@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client SignUp Page</title>
+    <link rel="stylesheet" href="client.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="apply_box">
+            <h1>Job Application
+                <span class="title_small">(Web)</span>
+            </h1>
+            <form action="">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="f_name">Fisrt Name:</label>
+                        <input type="text" name="f_name" id="f_name" placeholder="Enter First Name.." required>
+                    </div>
+                    <div class="form_control">
+                        <label for="l_name">Last Name:</label>
+                        <input type="text" name="l_name" id="l_name" placeholder="Enter Last Name.." required>
+                    </div>
+                    <div class="form_control">
+                        <label for="user">UserName:</label>
+                        <input type="text" name="user" id="user" placeholder="Enter UserName.." required>
+                    </div>
+                     <div class="form_control">
+                        <label for="pass">Password:</label>
+                        <input type="password" name="pass" id="pass" placeholder="Enter Password.." required>
+                    </div>
+                    <div class="form_control">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email.." required>
+                    </div>
+                    <div class="form_control">
+                        <label for="cont_num">Contact Number:</label>
+                        <input type="number" name="cont_num" id="cont_num" placeholder="Enter Number.." required>
+                    </div>
+                    <div class="form_control">
+                        <label for="job_role">Job Role:</label>
+                        <select type="text" name="job_role" id="job_role" required>
+                            <option value="">Select Your Job</option>
+                            <option value="React">React</option>
+                            <option value="Express">Express</option>
+                            <option value="MongoDB">MongoDB</option>
+                        </select>
+                    </div>
+                    <div class="form_control">
+                        <label for="work">Work Experience</label>
+                        <select type="text" name="work" id="work" required>
+                            <option value="">Select Experience</option>
+                            <option value="Student">Student</option>
+                            <option value="Fresher">Fresher</option>
+                            <option value="Experience">Experience</option>
+                        </select>
+                    </div>
+                    <div class="form_control">
+                        <label for="lang">Preferred languages:</label>
+                        <select type="text" name="lang" id="lang" required>
+                            <option value="">Select Language</option>
+                            <option value="hindi">Hindi</option>
+                            <option value="english">English</option>
+                            <option value="french">French</option>
+                        </select>
+                    </div>
+                    <div class="form_control">
+                        <label for="date">D.O.B:</label>
+                        <input type="date" value="1999-01-01" name="date" id="date">
+                    </div>
+                    <div class="textarea_control">
+                        <label for="address">Address:</label><br/>
+                        <textarea name="address" id="address" cols="40" rows="3" placeholder="Enter Address" required></textarea>
+                    </div>
+                    <div class="form_control">
+                        <label for="upload">Upload CV:</label>
+                        <input type="file" name="upload" id="upload" required>
+                    </div>
+                    <div class="button_container">
+                        <button type="submit">Apply Now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
